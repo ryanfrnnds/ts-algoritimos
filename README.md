@@ -7,6 +7,11 @@
       npm i
   ```
 
+- Baixar as extensões recomendads no vsCode
+  - Clicando no icone de extensões a direita. Verifique imagem a baixo
+    ![Alt text](./assets/ExtensoesVsCode.png?raw=true 'Extensões')
+  - Em seguida procure pelas extensões do workspace e instale todas. Verifique imagem a baixo
+    ![Alt text](./assets/ExtensoesVsCodeInstal.png?raw=true 'Extensões')
 - Projeto está pronto para desenvolvimento.
 
 # Criando os algoritimos.
@@ -40,9 +45,15 @@
   - O arquivo **.ts** deve ser criado com o contéudo abaixo:
 
     ```js
+    import { IAlgoritimo } from '../interface/algoritimo';
     import PromptSync from 'prompt-sync';
     export class NomeArquivo implements IAlgoritimo {
       prompt = PromptSync();
+
+      titulo(): string {
+        //return 'QuestaoBliBli'
+        throw new Error('Method not implemented.');
+      }
       entradaDeDados(): void {
         console.log('Informe alguma coisa:');
         let valorInformado = this.prompt('');
@@ -61,7 +72,7 @@
 
 # Para executar/debugar.
 
-- abra o arquivo main.ts localizado na raiz do seu projeto. O modelo **cru** deve estar como abaixo:
+- abra o arquivo main.ts localizado na raiz da pasta **src/** do seu projeto. O modelo **cru** deve estar como abaixo:
 
   ```js
   import { GerenciadorDeAlgoritimo } from './gerenciador_de_algoritimo';
