@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "pmneo.tsimporter",
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "rbbit.typescript-hero",
+    "stringham.move-ts",
+    "GregorBiswanger.json2ts",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "EditorConfig.EditorConfig",
+    "steoates.autoimport",
+    "quicktype.quicktype",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
