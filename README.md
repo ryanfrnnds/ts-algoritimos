@@ -1,18 +1,48 @@
 # Configurando
 
-- Utilizar versão do node 16.16.0
-- Entrar na pasta e rodar o commando abaixo:
+Oi pessoal tudo bom? Eu sou o Ryan Fernandes e esse aqui é um modelo em TypeScript para treinar algoritimos.
 
-  ```
-      npm i
-  ```
+Bom aqui eu utilizei o **node** então pra **rodar** o projeto vai ser necessário instalar ai o **node** na versão **16.16.0** que foi a versão que eu utilizei.
+Mas não se preocupem que é bem simples. E não quero que vocês percam tempo focando em algo que não é necessário no momento.
 
+Bora lá é rapidinho. Eu estou utilizando aqui o **node** no **windows** então eu preciso que você instala o **node** ai no teu **windwons**.
+Mas sinta-se a vontade pra instalar o node como e onde você quiser...
+
+- 
+  - https://nodejs.org/dist/v16.16.0/
+    - Acessa essa página e instala ai o arquivo **MSI**
+    - Ele será um executável então é só instalar como de prache no windowns. 
+  - https://gitforwindows.org/
+    - E clica no botão de download
+    - Ele será um executável então é só instalar como de prache no windowns. 
+  - Baixa o VSCode (https://code.visualstudio.com/download)
+    - um editor de texto que vamos utilizar para desenvolver o algoritimo
+    - Ele será um executável então é só instalar como de prache no windowns. 
+- Agora baixa o projeto aqui do GitHub no botão de download logo a cima. O botão verdinho.
+- Descompacta a pasta no local que você se sentir confortável e entra na pasta
+  - Clica com o botão direito do mouse dentro da pasta
+  - e escolhe a opção Git Bash Here
+    - isso abrirá um terminal dentro do seu projeto
+    - Dentro do terminal roda esses comandos!
+      - Primeiro esse
+      ```
+        npm i
+      ```
+      - agora esse
+      ```
+        code .
+      ```
+      - deve ter aberto o VSCode na pasta do projeto.
+# Com o VSCode Aberto
 - Baixar as extensões recomendads no vsCode
   - Clicando no icone de extensões a direita. Verifique imagem a baixo
     ![Alt text](./assets/ExtensoesVsCode.png?raw=true 'Extensões')
   - Em seguida procure pelas extensões do workspace e instale todas. Verifique imagem a baixo
     ![Alt text](./assets/ExtensoesVsCodeInstal.png?raw=true 'Extensões')
 - Projeto está pronto para desenvolvimento.
+
+- _Agora dá uma lida rápida aqui em baixo para criar seu primeiro algoritimo._ 
+**BOA SORTE**
 
 # Criando os algoritimos.
 
