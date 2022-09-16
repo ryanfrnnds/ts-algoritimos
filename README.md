@@ -80,40 +80,46 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
   - O arquivo **.ts** deve ser criado com o contéudo abaixo:
 
     ```js
-    import { IAlgoritimo } from '../interface/algoritimo';
-    import PromptSync from 'prompt-sync';
-    export class NomeArquivo implements IAlgoritimo {
-      prompt = PromptSync();
+    import { VisualgBase } from '../../abstract/visualg_base';
+    import { IAlgoritimo } from '../../interface/algoritimo';
+
+    export class NomeDoArquivo extends VisualgBase implements IAlgoritimo {
+      // Declaração de variáveis
+
+      // Fim declaração de variáveis
 
       titulo(): string {
-        //return 'QuestaoBliBli'
-        throw new Error('Method not implemented.');
+        return 'Nomde do arquivo';
       }
+
       entradaDeDados(): void {
-        console.log('Informe alguma coisa:');
-        let valorInformado = this.prompt('');
-        throw new Error('Method not implemented.');
+        // Informe aqui as entradas de dados do algoritimo.
       }
       processamentoDosDados() {
-        throw new Error('Method not implemented.');
+        // Informe aqui o seu processamento do algoritimo.
       }
       saidaDosDados() {
-        throw new Error('Method not implemented.');
+        // Informe aqui a saída de dado do algoritimo
       }
     }
     ```
 
-  - **Então desenvolva seu algoritimo**.
+  - **Então desenvolva seu algoritimo**
+    - Existem um exemplo feito em **src/exemplo/algoritimo/algoritimo.ts**
 
 # Para executar/debugar.
 
 - abra o arquivo main.ts localizado na raiz da pasta **src/** do seu projeto. O modelo **cru** deve estar como abaixo:
 
+  - Nele já está existindo um ExemploAlgoritimo() que está em **src/exemplo/algoritimo/algoritimo.ts**
+  - **Apague esse exemplo quando construir o primeiro algoritimo.**
+
   ```js
+  import { ExemploAlgoritimo } from './exemplo/algoritimo/exemplo_algoritimo';
   import { GerenciadorDeAlgoritimo } from './gerenciador_de_algoritimo';
   import { IAlgoritimo } from './interface/algoritimo';
 
-  const algoritimos: Array<IAlgoritimo> = [];
+  const algoritimos: Array<IAlgoritimo> = [new ExemploAlgoritimo()];
 
   const gerenciadorDosAlgoritimos: GerenciadorDeAlgoritimo =
     new GerenciadorDeAlgoritimo(algoritimos);
@@ -121,24 +127,22 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
   gerenciadorDosAlgoritimos.executar();
   ```
 
-- para cada _novo algoritimo criado_ adicione-o no Array de algoritimos. Exemplo abaixo:
+- para cada _novo algoritimo criado_ adicione-o no arquivo **main.ts** na lina 5 onde está declarado a lista de algoritimos Exemplo abaixo:
 
   - const algoritimos: Array<IAlgoritimo> = [**new NomeArquivoCriado(), new Nome2ArquivoCriado(), new Nome3ArquivoCriado()**];
+    - Apague o ExemploAlgoritimo se quiser.
 
   ```js
-  import { GerenciadorDeAlgoritimo } from './gerenciador_de_algoritimo';
-  import { IAlgoritimo } from './interface/algoritimo';
-
+  .
+  .
+  .
   const algoritimos: Array<IAlgoritimo> = [
-    new NomeArquivoCriado(),
-    new Nome2ArquivoCriado(),
-    new Nome3ArquivoCriado(),
+    new ExemploAlgoritimo(),
+    new NomeArquivoCriado()
   ];
-
-  const gerenciadorDosAlgoritimos: GerenciadorDeAlgoritimo =
-    new GerenciadorDeAlgoritimo(algoritimos);
-
-  gerenciadorDosAlgoritimos.executar();
+  .
+  .
+  .
   ```
 
 - E com o arquivo **main.ts** aberto execute o f5 no vsCode.
