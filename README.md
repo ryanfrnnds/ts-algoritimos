@@ -11,6 +11,7 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
 - - https://nodejs.org/dist/v16.16.0/
     - Acessa essa página e instala ai o arquivo **MSI**
     - Ele será um executável então é só instalar como de prache no windowns.
+      ![Alt text](./assets/nodeInstall.png?raw=true 'Extensões')
   - https://gitforwindows.org/
     - E clica no botão de download
     - Ele será um executável então é só instalar como de prache no windowns.
@@ -40,9 +41,9 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
 
 - Baixar as extensões recomendads no vsCode
   - Clicando no icone de extensões a direita. Verifique imagem a baixo
-    ![Alt text](./assets/ExtensoesVsCode.png?raw=true 'Extensões')
+    ![Alt text](./assets/extensoesVsCode.png?raw=true 'Extensões')
   - Em seguida procure pelas extensões do workspace e instale todas. Verifique imagem a baixo
-    ![Alt text](./assets/ExtensoesVsCodeInstal.png?raw=true 'Extensões')
+    ![Alt text](./assets/extensoesVsCodeInstal.png?raw=true 'Extensões')
 - Projeto está pronto para desenvolvimento.
 
 - _Agora dá uma lida rápida aqui em baixo para criar seu primeiro algoritimo._
