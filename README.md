@@ -2,6 +2,9 @@
 
 Oi pessoal tudo bom? Eu sou o Ryan Fernandes e esse aqui é um modelo em TypeScript para treinar algoritimos.
 
+**Antes de tudo é ideal que você já tenha algum conhecimento e prática em _portugol_ ou _VisualG_. A idéia é que você consiga migrar do **VisualG**
+para uma linguagem de mercado de forma menos dolorosa.**
+
 Bom aqui eu utilizei o **node** então pra **rodar** o projeto vai ser necessário instalar ai o **node** na versão **16.16.0** que foi a versão que eu utilizei.
 Mas não se preocupem que é bem simples. E não quero que vocês percam tempo focando em algo que não é necessário no momento.
 
