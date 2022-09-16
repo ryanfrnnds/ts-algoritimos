@@ -76,7 +76,7 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
   ```
     mkdir src/[nome_da_pasta]
   ```
-- Dentro da pasta criei o arquivo **.ts**
+- Dentro da pasta crie o arquivo **.ts**
 
   ```
       type nul > src/[nome_da_pasta]/[nome_do_arquivo].ts
@@ -132,10 +132,9 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
   gerenciadorDosAlgoritimos.executar();
   ```
 
-- para cada _novo algoritimo criado_ adicione-o no arquivo **main.ts** na lina 5 onde está declarado a lista de algoritimos Exemplo abaixo:
+- para cada _novo algoritimo criado_ adicione-o no arquivo **main.ts** na **_linha 5_** onde está declarado a lista de algoritimos Exemplo abaixo:
 
-  - const algoritimos: Array<IAlgoritimo> = [**new NomeArquivoCriado(), new Nome2ArquivoCriado(), new Nome3ArquivoCriado()**];
-    - Apague o ExemploAlgoritimo se quiser.
+  - Altere a **linha 5** do arquivo **main.ts** como no exemplo abaixo:
 
   ```js
   .
