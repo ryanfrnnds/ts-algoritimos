@@ -60,14 +60,16 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
 
   ```js
   console.log('O texto que você quiser colocar...');
+  OU;
+  this.escreval('O texto que você quiser colocar...'); // Baseado no VISUALG
   ```
 
   - Entrada de dados
 
   ```js
-  import PromptSync from 'prompt-sync'; // Esse import deve ser adicionado na primeira linha da classe criada.
-  prompt = PromptSync(); // Variável que deve ser criada em seu algoritimo para fazer uso do comando de entrada de dados.
-  this.prompt(''); // Comando que aguardara a entrada do dado do TECLADO. Sempre retornando uma string.
+  this.variavelCriada = this.prompt(''); // Comando que aguardara a entrada do dado do TECLADO. Sempre retornando uma string.
+  OU;
+  this.variavelCriada = this.leia(); // Baseado no VISUALG. Aqui ele retornará um numero caso a informação passada represente UM. Ou um TEXTO caso não represente um numero
   ```
 
 - Dentro da pasta **src** crie uma pasta como o _nome do arquivo_
@@ -83,8 +85,8 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
   - O arquivo **.ts** deve ser criado com o contéudo abaixo:
 
     ```js
-    import { VisualgBase } from '../../abstract/visualg_base';
-    import { IAlgoritimo } from '../../interface/algoritimo';
+    import { VisualgBase } from '../abstract/visualg_base';
+    import { IAlgoritimo } from '../interface/algoritimo';
 
     export class NomeDoArquivo extends VisualgBase implements IAlgoritimo {
       // Declaração de variáveis
