@@ -8,17 +8,19 @@ Mas não se preocupem que é bem simples. E não quero que vocês percam tempo f
 Bora lá é rapidinho. Eu estou utilizando aqui o **node** no **windows** então eu preciso que você instala o **node** ai no teu **windwons**.
 Mas sinta-se a vontade pra instalar o node como e onde você quiser...
 
-- 
-  - https://nodejs.org/dist/v16.16.0/
+- - https://nodejs.org/dist/v16.16.0/
     - Acessa essa página e instala ai o arquivo **MSI**
-    - Ele será um executável então é só instalar como de prache no windowns. 
+    - Ele será um executável então é só instalar como de prache no windowns.
   - https://gitforwindows.org/
     - E clica no botão de download
-    - Ele será um executável então é só instalar como de prache no windowns. 
+    - Ele será um executável então é só instalar como de prache no windowns.
   - Baixa o VSCode (https://code.visualstudio.com/download)
     - um editor de texto que vamos utilizar para desenvolver o algoritimo
-    - Ele será um executável então é só instalar como de prache no windowns. 
-- Agora baixa o projeto aqui do GitHub no botão de download logo a cima. O botão verdinho.
+    - Ele será um executável então é só instalar como de prache no windowns.
+- Agora baixa o projeto aqui do GitHub
+  - Clica no botão **_verde_** escrito "_code_" logo a cima.
+  - Depois em **Download ZIP**
+    ![Alt text](./assets/donwloadProject.png?raw=true 'Extensões')
 - Descompacta a pasta no local que você se sentir confortável e entra na pasta
   - Clica com o botão direito do mouse dentro da pasta
   - e escolhe a opção Git Bash Here
@@ -33,7 +35,9 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
         code .
       ```
       - deve ter aberto o VSCode na pasta do projeto.
+
 # Com o VSCode Aberto
+
 - Baixar as extensões recomendads no vsCode
   - Clicando no icone de extensões a direita. Verifique imagem a baixo
     ![Alt text](./assets/ExtensoesVsCode.png?raw=true 'Extensões')
@@ -41,8 +45,8 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
     ![Alt text](./assets/ExtensoesVsCodeInstal.png?raw=true 'Extensões')
 - Projeto está pronto para desenvolvimento.
 
-- _Agora dá uma lida rápida aqui em baixo para criar seu primeiro algoritimo._ 
-**BOA SORTE**
+- _Agora dá uma lida rápida aqui em baixo para criar seu primeiro algoritimo._
+  **BOA SORTE**
 
 # Criando os algoritimos.
 
