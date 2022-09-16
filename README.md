@@ -34,7 +34,7 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
       ```
         npm i
       ```
-      - agora esse
+      - agora esse -> code **.** -> atenção para o **.** (Ponto!)
       ```
         code .
       ```
