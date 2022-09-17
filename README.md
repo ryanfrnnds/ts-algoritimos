@@ -2,39 +2,39 @@
 
 Oi pessoal tudo bom? Eu sou o Ryan Fernandes e esse aqui é um modelo em TypeScript para treinar algoritimos.
 
-**Antes de tudo é ideal que você já tenha algum conhecimento e prática em _portugol_ ou _VisualG_. A idéia é que você consiga migrar do **VisualG**
+**Antes de tudo é ideal que você já tenha algum conhecimento e prática em _portugol_ ou _VisualG_. A ideia é que você consiga migrar do **VisualG**
 para uma linguagem de mercado de forma menos dolorosa.**
 
-Bom aqui eu utilizei o **node** então pra **rodar** o projeto vai ser necessário instalar ai o **node** na versão **16.16.0** que foi a versão que eu utilizei.
+Bom aqui eu utilizei o **node** então para **rodar** o projeto vai ser necessário instalar aí o **node** na versão **16.16.0** que foi a versão que eu utilizei.
 Mas não se preocupem que é bem simples. E não quero que vocês percam tempo focando em algo que não é necessário no momento.
 
-Bora lá é rapidinho. Eu estou utilizando aqui o **node** no **windows** então eu preciso que você instala o **node** ai no teu **windwons**.
-Mas sinta-se a vontade pra instalar o node como e onde você quiser...
+Bora lá é rapidinho. Eu estou utilizando aqui o **node** no **windowns** então eu preciso que você instala o **node** ai no teu **windowns**.
+Mas sinta-se a vontade para instalar o node como e onde você quiser...
 
 - - https://nodejs.org/dist/v16.16.0/
-    - Acessa essa página e instala ai o arquivo **MSI**
-    - Ele será um executável então é só instalar como de prache no windowns.
+    - Acessa essa página e instala aí o arquivo **MSI**
+    - Ele será um executável então é só instalar como de praxe no windowns.
       ![Alt text](./assets/nodeInstall.png?raw=true 'Extensões')
   - https://gitforwindows.org/
     - E clica no botão de download
-    - Ele será um executável então é só instalar como de prache no windowns.
+    - Ele será um executável então é só instalar como de praxe no windowns.
   - Baixa o VSCode (https://code.visualstudio.com/download)
-    - um editor de texto que vamos utilizar para desenvolver o algoritimo
-    - Ele será um executável então é só instalar como de prache no windowns.
+    - um editor de texto que vamos utilizar para desenvolver o algorítimo
+    - Ele será um executável então é só instalar como de praxe no windowns.
 - Agora baixa o projeto aqui do GitHub
   - Clica no botão **_verde_** escrito "_code_" logo a cima.
   - Depois em **Download ZIP**
     ![Alt text](./assets/donwloadProject.png?raw=true 'Extensões')
 - Descompacta a pasta no local que você se sentir confortável e entra na pasta
-  - Clica com o botão direito do mouse dentro da pasta
+  - Clica com o botão direito do mouse na pasta
   - e escolhe a opção Git Bash Here
-    - isso abrirá um terminal dentro do seu projeto
-    - Dentro do terminal roda esses comandos!
+    - isso abrirá um terminal no seu projeto
+    - No terminal roda esses comandos!
       - Primeiro esse
       ```
         npm i
       ```
-      - agora esse -> code **.** -> atenção para o **.** (Ponto!)
+      - Agora esse -> code **.** -> atenção para o **.** (Ponto!)
       ```
         code .
       ```
@@ -42,14 +42,14 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
 
 # Com o VSCode Aberto
 
-- Baixar as extensões recomendads no vsCode
+- Baixar as extensões recomendadas no vsCode
   - Clicando no icone de extensões a direita. Verifique imagem a baixo
     ![Alt text](./assets/extensoesVsCode.png?raw=true 'Extensões')
   - Em seguida procure pelas extensões do workspace e instale todas. Verifique imagem a baixo
     ![Alt text](./assets/extensoesVsCodeInstal.png?raw=true 'Extensões')
 - Projeto está pronto para desenvolvimento.
 
-- _Agora dá uma lida rápida aqui em baixo para criar seu primeiro algoritimo._
+- _Agora dá uma lida rápida aqui em baixo para criar seu primeiro algorítimo._
   **BOA SORTE**
 
 # Criando os algoritimos.
@@ -69,14 +69,14 @@ Mas sinta-se a vontade pra instalar o node como e onde você quiser...
   ```js
   this.variavelCriada = this.prompt(''); // Comando que aguardara a entrada do dado do TECLADO. Sempre retornando uma string.
   OU;
-  this.variavelCriada = this.leia(); // Baseado no VISUALG. Aqui ele retornará um numero caso a informação passada represente UM. Ou um TEXTO caso não represente um numero
+  this.variavelCriada = this.leia(); // Baseado no VISUALG. Aqui ele retornará um número caso a informação passada represente UM. Ou um TEXTO caso não represente um número
   ```
 
-- Dentro da pasta **src** crie uma pasta como o _nome do arquivo_
+- Na pasta **src** crie uma pasta como o _nome do arquivo_
   ```
     mkdir src/[nome_da_pasta]
   ```
-- Dentro da pasta crie o arquivo **.ts**
+- Na pasta crie o arquivo **.ts**
 
   ```
       type nul > src/[nome_da_pasta]/[nome_do_arquivo].ts
