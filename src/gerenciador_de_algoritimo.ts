@@ -10,6 +10,7 @@ export class GerenciadorDeAlgoritimo {
       this.processamentoDosDados();
 
       this.saidaDosDados();
+      return;
     }
     console.log();
     console.log();
